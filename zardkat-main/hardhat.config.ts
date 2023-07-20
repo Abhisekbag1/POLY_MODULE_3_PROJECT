@@ -12,6 +12,14 @@ process.env.BASE_PATH = __dirname;
 import "./tasks/newcircuit.ts"
 
 const config: HardhatUserConfig = {
+  networks: {
+    fuji: {
+       url: 'https://api.avax-test.network/ext/bc/C/rpc',
+       gasPrice: 225000000000,
+       chainId: 43113,
+       accounts: 
+         // YOUR PRIVATE KEY HERE
+       ["6a4d93822fd4cb372860532274f169a4f10594eae5f3f55b4e4b66ee4deb9612"],},},
   solidity: {
     compilers: [
       {
@@ -33,3 +41,4 @@ const config: HardhatUserConfig = {
 };
 
 export default config;
+
