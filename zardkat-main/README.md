@@ -81,5 +81,6 @@ npx hardhat run scripts/deploy.ts --network fuji
 ```
 
 ## AUTHER
+ABHISEK BAG
 https://www.linkedin.com/in/abhisek-bag-09865421b/
 21BCS9333@cuchd.in
